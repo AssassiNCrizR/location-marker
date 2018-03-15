@@ -1,0 +1,19 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mapwithmarker.MapsMarkerActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="Get Current Location"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"/>
+
+</fragment>
